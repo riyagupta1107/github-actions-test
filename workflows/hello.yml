@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello World!"
+      - name: Print Date
+        run: date 
+      - name: Print directories
+        run: ls -l
